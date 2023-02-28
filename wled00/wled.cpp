@@ -648,7 +648,10 @@ void WLED::initConnection()
   WiFi.hostname(hostname);
 #endif
 
-  WiFi.begin(clientSSID, clientPass);
+    Serial.begin(115200);
+
+  // WiFi.begin(clientSSID, clientPass);
+  WiFi.begin("HACS2400","af4d8bc9ab");
 
 #ifdef ARDUINO_ARCH_ESP32
   WiFi.setSleep(!noWifiSleep);
