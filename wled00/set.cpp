@@ -127,7 +127,6 @@ void handleSettingsSet(AsyncWebServerRequest *request, byte subPage)
       busConfigs[s] = new BusConfig(type, pins, start, length, colorOrder | (channelSwap<<4), request->hasArg(cv), skip, awmode);
       busesChanged = true;
     }
-    //doInitBusses = busesChanged; // we will do that below to ensure all input data is processed
 
     ColorOrderMap com = {};
     for (uint8_t s = 0; s < WLED_MAX_COLOR_ORDER_MAPPINGS; s++) {

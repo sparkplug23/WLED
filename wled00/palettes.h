@@ -888,6 +888,7 @@ const byte* const gGradientPalettes[] PROGMEM = {
   Sakura_gp,                    //49-36 Sakura
   Aurora_gp,                    //50-37 Aurora
   Atlantica_gp,                 //51-38 Atlantica
+
   C9_2_gp,                      //52-39 C9 2
   C9_new_gp,                    //53-40 C9 New
   temperature_gp,               //54-41 Temperature
@@ -899,6 +900,7 @@ const byte* const gGradientPalettes[] PROGMEM = {
   semi_blue_gp,                 //60-47 Semi Blue
   pink_candy_gp,                //61-48 Pink Candy
   red_reaf_gp,                  //62-49 Red Reaf
+  
   aqua_flash_gp,                //63-50 Aqua Flash
   yelblu_hot_gp,                //64-51 Yelblu Hot
   lite_light_gp,                //65-52 Lite Light

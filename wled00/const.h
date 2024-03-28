@@ -9,7 +9,7 @@
 
 //Defaults
 #define DEFAULT_CLIENT_SSID "HACS2400"
-#define DEFAULT_AP_SSID     "af4d8bc9ab"
+#define DEFAULT_AP_SSID     "HACS2400"
 #define DEFAULT_AP_PASS     "wled1234"
 #define DEFAULT_OTA_PASS    "wledota"
 
