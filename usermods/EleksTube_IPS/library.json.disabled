@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name:": "EleksTube_IPS",
   "build": { "libArchive": false },
@@ -6,3 +7,13 @@
   } 
 }
 # Seems to add 300kb to the RAM requirement???
+=======
+{
+  "name": "EleksTube_IPS",
+  "build": { "libArchive": false },
+  "dependencies": {
+    "TFT_eSPI" : "2.5.33"
+  } 
+}
+# Seems to add 300kb to the RAM requirement???
+>>>>>>> 7bd0bd47e72f0aa984756599d4db0772bfec4383

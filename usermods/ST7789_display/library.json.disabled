@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 {
   "name:": "ST7789_display",
   "build": { "libArchive": false }
+=======
+{
+  "name": "ST7789_display",
+  "build": { "libArchive": false }
+>>>>>>> 7bd0bd47e72f0aa984756599d4db0772bfec4383
 }

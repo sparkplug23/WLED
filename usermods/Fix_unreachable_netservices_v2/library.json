@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 {
   "name": "Fix_unreachable_netservices_v2",
   "platforms": ["espressif8266"]
 }
+=======
+{
+  "name": "Fix_unreachable_netservices_v2",
+  "build": { "libArchive": false },
+  "platforms": ["espressif8266"]
+}
+>>>>>>> 7bd0bd47e72f0aa984756599d4db0772bfec4383
