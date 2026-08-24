@@ -497,9 +497,10 @@ void Segment::fillCircle(uint16_t cx, uint16_t cy, uint8_t radius, uint32_t col,
   // draw soft bounding circle
   if (soft) drawCircle(cx, cy, radius, col, soft);
   // fill it
+  int radius2 = soft ? radius * radius : radius * radius + radius;  // (r+0.5)^2 = r*r + r + 0.25; use exact radius for "soft" circle to stay compatible with Wu’s algorithm
   for (int y = -radius; y <= radius; y++) {
     for (int x = -radius; x <= radius; x++) {
-      if (x * x + y * y <= radius * radius &&
+      if (x * x + y * y < radius2 &&
           int(cx)+x >= 0 && int(cy)+y >= 0 &&
           int(cx)+x < vW && int(cy)+y < vH)
         setPixelColorXY(cx + x, cy + y, col);
